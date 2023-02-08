@@ -10,13 +10,19 @@ h1{
   text-shadow: 1px 1px 5px white;
   position: absolute;
   font-size: 20px;
-  left: 365px;
-  top: 450px;
+  height: 100%;
+  width: 100%;
+  display: grid;
+  place-items: center;
+  padding-top: 340px;
+  padding-left: 70px;
 }
 .logo{
   position: absolute;
-  left: 540px;
-  top: 50px;
+  height: 100%;
+  width: 100%;
+  display: grid;
+  place-items: center;
   z-index: 2;
 }
 
@@ -104,56 +110,7 @@ body{
   transform: rotateY(180deg);
 }
 
-@media(max-width: 1700px){
-  h1{
-    left: 365px;
-    top: 450px;
-  }
-  .logo{
-    left: 360px;
-    top: 50px;
-  }
-}
-@media(max-width: 1500px){
-  h1{
-    left: 365px;
-    top: 450px;
-  }
-  .logo{
-    left: 340px;
-    top: 150px;
-  }
-}
-@media(max-width: 1300px){
-  .logo{
-    left: 240px;
-    top: 40px;
-  }
-}
-@media(max-width: 1200px){
-  .logo{
-    left: 200px;
-    top: 40px;
-  }
-}
-@media(max-width: 1000px){
-  .logo{
-    left: 100px;
-    top: 50px;
-  }
-}
-@media(max-width: 800px){
-  .logo{
-    left: -100px;
-    top: 10px;
-  }
-}
-@media(max-width: 500px){
-  .logo{
-    left: -100px;
-    top: 10px;
-  }
-}
+
 
 @media (min-aspect-ratio: 16/9){
   #videoBG, #videoBG1{
