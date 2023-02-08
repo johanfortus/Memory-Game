@@ -139,7 +139,7 @@ body{
 @media(max-width: 1000px){
   .logo{
     left: 100px;
-    top: 40px;
+    top: 50px;
   }
 }
 @media(max-width: 800px){
