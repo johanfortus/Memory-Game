@@ -110,8 +110,8 @@ body{
     top: 450px;
   }
   .logo{
-    left: 440px;
-    top: 150px;
+    left: 360px;
+    top: 50px;
   }
 }
 @media(max-width: 1500px){
